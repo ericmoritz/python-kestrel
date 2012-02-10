@@ -1,2 +1,4 @@
 This software is a 100% Python interface to the Kestrel distributed
 message queue system. 
+
+This is alpha software.
