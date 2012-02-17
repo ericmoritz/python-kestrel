@@ -24,6 +24,12 @@ SERVER_MAX_VALUE_LENGTH = 1024*1024
 
 _SOCKET_TIMEOUT = 30
 
+class _Error(Exception):
+    pass
+
+
+class _ConnectionDeadError(Exception):
+    pass
 
 
 class Client(local):
